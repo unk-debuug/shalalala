@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(54, 17, 63); /* Roxo escuro de fundo */
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+}
+
+header {
+  border-bottom: solid 2px rgb(154, 44, 194);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(154, 44, 194);
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Seção de introdução estilo chamada */
+.chamada {
+  background-color: rgb(226, 149, 245);
+  padding: 80px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.chamada-texto {
+  max-width: 600px;
+  margin-right: 5%;
+}
+
+/* Imagem do Ghost */
+.image-container img {
+  height: auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Seção de vídeos estilo categoria */
+.categoria {
+  padding: 40px 20px;
+  background-color: rgb(54, 17, 63);
+}
+
+.categoria h2 {
+  font-size: 28px;
+  color: rgb(226, 149, 245);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.categoria-videos img {
+  width: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.categoria-videos img:hover {
+  transform: scale(1.05);
+}
+
+/* Rodapé simples */
+footer {
+  background-color: rgb(154, 44, 194);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
